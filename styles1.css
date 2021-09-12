@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+/* background image with navbar */
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(https://external-preview.redd.it/FswnktfXbG2FXQaRpl2-E-MzSjwpuxLghYjhw8IYyWM.png?auto=webp&s=a148509d288c4215cff33c925a58163796d1a299);
+  background-size: cover;
+  background-position: center;
+}
+/* navbar */
+.navbar {
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+}
+/* content under navbar */
+.content {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: white;
+}
+.content h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 60px;
+}
+/* button in content */
+.button {
+  background-color: transparent;
+  display: inline-block;
+  margin: 20px 10px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 0px 0px;
+  text-decoration: none;
+  font-family: "VT323", monospace;
+  font-size: 30px;
+}
+.button:hover {
+  background-color: transparent;
+}
+.button:active {
+  position: relative;
+  top: 1px;
+}
+/* image manipulation, add color to text and some paddings */
+section img {
+  height: 200px;
+  width: 300px;
+  padding-top: 10px;
+}
+section h3,
+p,
+ul li {
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+}
+section h2 {
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+}
+/* mp3 settings */
+.sounds {
+  text-align: left;
+  padding-bottom: 5px;
+  padding-left: 40px;
+}
+.sounds2 {
+  text-align: left;
+  padding-bottom: 5px;
+  padding-left: 25px;
+}
+/* center content */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+.center2dino {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+.center3dino {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+}
+/* first dino background image */
+.firstdino {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4a295dfe-9437-4882-b57c-f35fdb879ec5/d2h7adx-558f8ea0-2f78-4a3f-9a21-ce1480d18829.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzRhMjk1ZGZlLTk0MzctNDg4Mi1iNTdjLWYzNWZkYjg3OWVjNVwvZDJoN2FkeC01NThmOGVhMC0yZjc4LTRhM2YtOWEyMS1jZTE0ODBkMTg4MjkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.sb0x3dULjNBX7zyG3c1PB1yLYI7HG2bUP1ZLOgQoP7Y);
+  background-size: cover;
+  background-position: center;
+}
+/* second dino background image */
+.seconddino {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(https://64.media.tumblr.com/253c4cfd40f31b7089f02d6d225652b3/tumblr_pie63sv0XJ1xlqoxeo1_1280.png);
+  background-size: cover;
+  background-position: center;
+}
+/* third dino background image */
+.thirddino {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(https://pbs.twimg.com/media/Dx3Ty-4WwAAG57N.png);
+  background-size: cover;
+  background-position: center;
+}
+/* fourth dino background image */
+.fourthdino {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(https://preview.redd.it/3axzxvnyku651.png?width=640&format=png&auto=webp&s=90149a60ad12d93a1bf0ce91807d33d2f3929ec3);
+  background-size: cover;
+  background-position: center;
+}
+/* fifth dino background image */
+.fifthdino {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(https://img.itch.zone/aW1hZ2UvMTE1OTIxLzUzNjE1OS5wbmc=/original/Xg%2BRuo.png);
+  background-size: cover;
+  background-position: center;
+}
+/* sixth dino background image */
+.sixthdino {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(https://cdn.dribbble.com/users/1102039/screenshots/9555150/pixel_wood_x1200_1x.jpg);
+  background-size: cover;
+  background-position: center;
+}
+/* seventh dino background image */
+.seventhdino {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(https://carbonmade-media.accelerator.net/21009987;640x426.png?auto=webp);
+  background-size: cover;
+  background-position: center;
+}
+/* go to top button */
+#top {
+  position: absolute;
+  bottom: -4670px;
+  right: 0px;
+  font-weight: 100;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+/* footer settings */
+footer {
+  background: black;
+  height: auto;
+  width: 100%;
+  padding-top: 40px;
+  color: white;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+  font-family: "Open Sans", sans-serif;
+}
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 1rem 0;
+}
+.socials li {
+  margin: 0 10px;
+}
+.socials a {
+  text-decoration: none;
+  color: white;
+}
+.socials a i {
+  font-size: 1.1rem;
+  transition: color 0.4s ease;
+}
+.socials a:hover i {
+  color: aqua;
+}
+.footer-bottom {
+  background: black;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-bottom p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  font-family: "Open Sans", sans-serif;
+}
+.footer-bottom span {
+  text-transform: uppercase;
+  opacity: 0.4;
+  font-weight: 200;
+}
